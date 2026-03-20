@@ -1,3 +1,8 @@
- ~/mavenv/bin/python3 upload_wpl_fixed.py test_wp1.waypoints --master /dev/ttyACM0 --baud 115200
+# MAVLink Mission Upload
 
-Finish 
+This code takes a mission file and sends it to the autopilot via MAVLink over USB.
+
+## Usage
+1. Connect autopilot via USB  
+2. Provide mission file  
+3. Run the program
